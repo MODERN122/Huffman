@@ -87,7 +87,7 @@ namespace Huffman
         {// получаем карту для кодирования
             var output = new Dictionary<byte, BitArray>(_nodes.Length);
             var sb = new StringBuilder();
-            foreach (HuffmanTree t in _nodes) // для каждого узла стоим код
+            foreach (HuffmanTree t in _nodes) // для каждого узла строим код
             {
                 var huffmanTree = t;
                 sb.Clear();

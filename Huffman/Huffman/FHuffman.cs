@@ -28,7 +28,7 @@ namespace Huffman
                 var huffmapMap = HuffmanTree.GetMap(); // получаем карду кодировки
 
                 CodeFile(ofd.FileName, ofd.FileName + "huf", huffmapMap, _byteMap); // кодируем
-                OutputTextBox.AppendText("\nФайл успешно зашифрован. Новое имя файла: " + ofd.FileName + "5huf\n");
+                OutputTextBox.AppendText("\nФайл успешно зашифрован. Новое имя файла: " + ofd.FileName + "huf\n");
             }
 
         }
